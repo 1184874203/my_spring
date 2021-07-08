@@ -1,9 +1,7 @@
 package com.sam.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.Mapper;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.sam.pojo.user;
-import org.springframework.stereotype.Component;
 
-@Component
-public class userMapper implements Mapper {
+public interface userMapper extends BaseMapper<user> {
 }

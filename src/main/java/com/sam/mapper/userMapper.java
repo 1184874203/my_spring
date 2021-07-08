@@ -1,7 +1,7 @@
 package com.sam.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.Mapper;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.sam.pojo.user;
 
-public class userMapper implements Mapper {
+public interface userMapper extends BaseMapper<user> {
 }
